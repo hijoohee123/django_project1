@@ -18,6 +18,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('fcuser/', include('fcuser.urls'))
+    path('fcuser/', include('fcuser.urls')),
+    path('', home)
 ]
 
